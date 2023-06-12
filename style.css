@@ -1,0 +1,31 @@
+body{
+  background: linear-gradient(to top, #dfe9f3 0%, #dfe9f3 100%);
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+label,button,p{
+  font-family: 'Poppins', sans-serif;
+}
+button{
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  padding: 0.5rem 3rem !important;
+  border: none;
+  border-radius: 1rem;
+}
+.container1{
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  max-width: 50%;
+}
+
+@media (max-width: 575.98px) {
+  .container1 {
+   max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container1 {
+    max-width: 100%;
+  }
+}
