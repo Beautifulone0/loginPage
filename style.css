@@ -17,6 +17,10 @@ button{
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   max-width: 50%;
 }
+.warning {
+  font-size: 0.8em;
+  color: hsl(0, 100%, 50%);
+}
 
 @media (max-width: 575.98px) {
   .container1 {
